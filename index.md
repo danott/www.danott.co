@@ -1,6 +1,7 @@
 ---
 date: 2020-12-11
 title: Starting Over
+layout: default.html
 ---
 
 # Starting over
