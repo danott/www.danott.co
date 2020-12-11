@@ -1,6 +1,10 @@
 module.exports = (eleventyConfig) => {
-  eleventyConfig.addPassthroughCopy("./site.css")
-  eleventyConfig.addWatchTarget("./site.css")
+  eleventyConfig.addPassthroughCopy("./site/site.css")
+  eleventyConfig.addWatchTarget("./site/site.css")
 
-  return {}
+  return {
+    dir: {
+      input: "site",
+    },
+  }
 }
