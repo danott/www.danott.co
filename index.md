@@ -95,7 +95,7 @@ Showing the thought process is a great teaching tool.
 I'd also like to consume them as actual content on the website.
 Perhaps as the CHANGELOG or the source of an RSS feed.
 
-## Okay, now what
+## Okay, now what?
 
 This is the first Markdown file of many.
 I've resisted the label, but I think what I'm building towards is a _weblog_.
@@ -110,12 +110,15 @@ The author's intended meaning hinges on the historical context.
 So while I don't necessarily want to restrict display to chronological order, I do want to keep the context of when things were written, and how thoughts changed over time.
 Availability of dates, without emphasis on them, seems to be a happy middle ground.
 
-## Okay, but now what, really
+## Okay, but now what, really?
 
 We'll see.
 The time has come to hit git commit on this first post.
+With a little bit of configuration in Netlify and GitHub, this page will be available at [www.danott.me][], and it's source at [github.com/danott/www.danott.me][].
 
 [cool urls don't change]: https://www.w3.org/Provider/Style/URI.html
 [eleventy]: https://www.11ty.dev/
 [jekyll]: https://jekyllrb.com
 [nanoc]: https://nanoc.ws
+[www.danott.me]: https://www.danott.me
+[github.com/danott/www.danott.me]: https://github.com/danott/www.danott.me
