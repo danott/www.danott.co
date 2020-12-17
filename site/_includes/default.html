@@ -10,14 +10,7 @@
   <body>
     <main>
       <nav>
-        <ol reversed>
-          {% for item in collections.all | reverse %}
-          <li>
-            <a href="{{ item.url }}">{{ item.data.title }}</a>
-            {{ item.date.toUTCString().split(" 00:00:00 GMT")[0] }}
-          </li>
-          {% endfor %}
-        </ol>
+        <a href="/">Back to the index</a>
       </nav>
 
       {{ content | safe }}
