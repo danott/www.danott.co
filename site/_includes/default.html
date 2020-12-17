@@ -8,12 +8,11 @@
   </head>
 
   <body>
-    <main>
-      <nav>
-        <a href="/">Back to the index</a>
-      </nav>
-
-      {{ content | safe }}
-    </main>
+    {% if page.url != "/" %}
+    <nav>
+      <a href="/">Back to the index</a>
+    </nav>
+    {% endif %}
+    <main>{{ content | safe }}</main>
   </body>
 </html>
