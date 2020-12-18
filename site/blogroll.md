@@ -27,6 +27,11 @@ I've presented them in alphabetical order.
 : I first heard of Derek when I read [Anything You Want](https://sive.rs/a).
 Everything I've read sense then has made me stop and think.
 
+[Eric Bailey](https://ericwbailey.design)
+: Eric's ethos towards design and development is front and center.
+The process of being developed in the open was a big inspiration in me doing the same.
+Everything published here seems carefully considered, and worthy of the time needed for ingesting.
+
 [Frank Chimero](https://frankchimero.com)
 : I honestly don't remember how I first heard Frank.
 It was around 2010'ish?
