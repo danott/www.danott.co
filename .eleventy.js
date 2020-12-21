@@ -25,6 +25,7 @@ module.exports = (eleventyConfig) => {
 
   return {
     htmlTemplateEngine: "njk",
+    markdownTemplateEngine: "njk",
     dir: {
       input: "site",
     },

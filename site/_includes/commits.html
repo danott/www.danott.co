@@ -1,0 +1,11 @@
+<ol reversed>
+  {% for commit in collections.commits %}
+  <li>
+    <article>
+      <h1>{{commit.subject}}</h1>
+      <p>{{ commit.date.toUTCString() }}</p>
+      <div>{{ commit.body | safe }}</div>
+    </article>
+  </li>
+  {% endfor %}
+</ol>
