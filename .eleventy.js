@@ -2,7 +2,7 @@ const MarkdownIt = require("markdown-it")
 const execSync = require("child_process").execSync
 
 const md = new MarkdownIt({
-  html: true,
+  html: false,
   breaks: false,
   typographer: true,
 }).use(require("markdown-it-deflist"))
@@ -21,6 +21,10 @@ module.exports = (eleventyConfig) => {
       if (body) body = md.render(body)
       return { date, body, ...rest }
     })
+  })
+
+  eleventyConfig.addPairedShortcode("markdown", function (content) {
+    return md.render(content)
   })
 
   return {

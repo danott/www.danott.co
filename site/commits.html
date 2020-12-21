@@ -1,0 +1,22 @@
+---
+title: Commits
+layout: default.html
+---
+
+{% markdown %} 
+# Commits 
+
+This page is an index of the commits that were written to build this website. 
+Sure, you could [browse them on GitHub][]. 
+But experimentation doesn't stop on account of hypothetical redundancy. 
+
+[browse them on github]: https://github.com/danott/www.danott.me/commits/master 
+{% endmarkdown %} 
+
+<ol reversed>
+  {% for commit in collections.commits %}
+    <li>
+      <a href="/commits/{{ commit.hash }}" />{{ commit.subject }}</a>
+    </li>
+  {% endfor %}
+</ol>
