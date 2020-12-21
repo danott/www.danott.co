@@ -1,0 +1,23 @@
+---
+title: Commit
+layout: default.html
+eleventyExcludeFromCollections: true
+permalink: "/commits/{{ commit.hash }}/index.html"
+pagination:
+  data: collections.commits
+  size: 1
+  alias: commit
+---
+
+<article>
+  <h1>{{commit.subject}}</h1>
+  <p>{{ commit.date.toUTCString() }}</p>
+
+  {{ commit.body | safe }}
+
+  <aside>
+    <a href="https://github.com/danott/www.danott.me/commit/{{commit.hash}}">
+      View commit on GitHub
+    </a>
+  </aside>
+</article>
