@@ -1,7 +1,7 @@
 ---
 date: 2020-12-18
 title: Blogroll
-layout: default.html
+layout: default.njk
 ---
 
 # Blogroll
