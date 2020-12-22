@@ -16,7 +16,7 @@ But experimentation doesn't stop on account of hypothetical redundancy.
 <ol reversed>
   {% for commit in collections.commits %}
     <li>
-      <a href="/commits/{{ commit.hash }}" />{{ commit.subject }}</a>
+      <a href="/commits/{{ commit.hash }}">{{ commit.subject }}</a>
     </li>
   {% endfor %}
 </ol>
