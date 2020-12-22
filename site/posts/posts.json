@@ -1,0 +1,4 @@
+{
+  "layout": "today-i-learned.njk",
+  "eleventyExcludeFromCollections": true
+}
