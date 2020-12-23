@@ -1,0 +1,4 @@
+{
+  "layout": "default.njk",
+  "eleventyExcludeFromCollections": false
+}
