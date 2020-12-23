@@ -196,7 +196,7 @@ x
 - [x] /lists/
 - [r] /lists/internet-heroes/
 - [x] /navigation/
-- [ ] /now/
+- [c] /now/
 - [x] /poetry/
 - [ ] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/
 - [ ] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/ABOUT/
@@ -288,7 +288,7 @@ x
 - [c] /posts/void-0/
 - [c] /posts/welp-you-did-it/
 - [c] /posts/when-node-starts-failing-randomly/
-- [ ] /search/
+- [c] /search/
 - [x] /sitemap/
 - [x] /today-i-learned/
 - [c] /today-i-learned/2014-09-30/
@@ -353,8 +353,8 @@ x
 - [c] /today-i-learned/2020-09-04/
 - [c] /today-i-learned/2020-09-09/
 - [c] /today-i-learned/2020-09-15/
-- [ ] /uses/
-- [ ] /weeks/
+- [c] /uses/
+- [x] /weeks/
 - [x] /worknotes/
 - [x] /worknotes/2020-08-26/
 - [x] /worknotes/2020-08-27/
