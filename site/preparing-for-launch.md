@@ -30,7 +30,7 @@ x
 
 - [r] /
 - [ ] /about/
-- [ ] /changelog/
+- [r] /changelog/
 - [x] /feeds/
 - [r] /feeds/everything.json
 - [r] /feeds/everything.rss
