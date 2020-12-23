@@ -29,7 +29,7 @@ x
 : intentionally moved somewhere else offsite, or abandoned, and I can sleep at night with that uncool 404, for now.
 
 - [r] /
-- [ ] /about/
+- [x] /about/
 - [r] /changelog/
 - [x] /feeds/
 - [r] /feeds/everything.json
