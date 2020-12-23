@@ -1,0 +1,364 @@
+---
+title: Preparing for launch
+date: 2020-12-22
+layout: default.njk
+---
+
+# Preparing for launch
+
+Building this site in the open from scratch has gotten the ball rolling.
+Initially I was interested in having www.danott.co and www.danott.me run in parallel, indefinitely.
+But after a few wins in migrating content as direct link only, I'd like to go ahead and shutter the old site.
+
+## The plan
+
+My old site had a handy dandy sitemap page.
+I copy pasted it's contents into a Markdown todo list, below.
+I'll make decisions on all the content, and check things off as I go.
+When all the decisions have been made, I'll feel good about ripping the cord on my old site.
+
+## Key
+
+c
+: copied to new site
+
+r
+: replaced and/or redirected
+
+x
+: intentionally moved somewhere else offsite, or abandoned, and I can sleep at night with that uncool 404, for now.
+
+- [r] /
+- [ ] /about/
+- [ ] /changelog/
+- [x] /feeds/
+- [r] /feeds/everything.json
+- [r] /feeds/everything.rss
+- [x] /links/
+- [x] /links/0048f444708660a127600f022c436289/
+- [x] /links/013b3269cc0fbac16188a38780d978db/
+- [x] /links/0417facbe7417926da0b6d8c8116e4dc/
+- [x] /links/060c26e9bfa0743123af4f7e96a5c05f/
+- [x] /links/0cc8681f4c960baa8d4ab5d5018cd73a/
+- [x] /links/0ecfad4017f9bec2afb5a0f64345109d/
+- [x] /links/104231f01df92532f7fd0758aef1d0d6/
+- [x] /links/119fb36321ad75d988021f5cf821bcdb/
+- [x] /links/12381380b16d3afa332c5e5c6a85ad84/
+- [x] /links/146cd9c34c236d549ae91a0017c10d62/
+- [x] /links/14d1d559c98e3a7b4284239541fc523b/
+- [x] /links/1c0838399842b2c1996dc673cdd4f26c/
+- [x] /links/1c8446185f86950c447b774ca7fe69f8/
+- [x] /links/1c9ece7a88303945508b569403ef69cf/
+- [x] /links/1da044601a6cbd2404bc831e3a6f0470/
+- [x] /links/21837d869c8d520a2288c1270d83d2fc/
+- [x] /links/226c1d1b113092d4c17c574b5e563a3f/
+- [x] /links/23253ba155b4bfb56ac9d8bd3c830ce8/
+- [x] /links/241fc7e0d7cd439e515a471ca844d7c9/
+- [x] /links/24dd39c1aa12a07fb16c92050daa39d0/
+- [x] /links/25b21d41f859c98e069907bfef5a1707/
+- [x] /links/289f4279bc76a80dc7a662e594e6ba48/
+- [x] /links/28c6d7c75b0b5738f62ad97aa4ba91df/
+- [x] /links/2a0b2c89563d246a9ed09848091fbc06/
+- [x] /links/2b20a382ef8546b1b5f81fa2a29be7aa/
+- [x] /links/2fefa31970fe109627d464c4cc12fbe9/
+- [x] /links/31cfab6e0c37a9323e0e80fe82763b78/
+- [x] /links/32c453a317d844234c8a3c6fee5121a7/
+- [x] /links/3346fb37c012a310da3e93e69dd03383/
+- [x] /links/38cb2c4852e8671600638e7c8d58aeeb/
+- [x] /links/3b229e20fda34ab3e6fdf03c0a1fbf31/
+- [x] /links/3b2f13da375e75e4869571b4b5e73b3f/
+- [x] /links/3b616b76bf2d958a8052d501236cd942/
+- [x] /links/3ddb63b97fa5617a0efe8edd1d882943/
+- [x] /links/3e7f26a1d4e5c84de7e5fddd4cea23ec/
+- [x] /links/4190808c1fed784dd9124a7a523e3576/
+- [x] /links/4695da4c73f8a85d5f329d1b41e00dea/
+- [x] /links/4922b657313570ac6bb9e6b9cf03ad70/
+- [x] /links/4bf65763de0e4ab35082d5ed527f0694/
+- [x] /links/4d32e7bbb263009a48de1f2d8e3909d7/
+- [x] /links/506c01ae31d8d940c196bffeb9d44092/
+- [x] /links/506d81aaa82153fef47e3addaa2383d7/
+- [x] /links/528a843a34dfb8ad29ad91818fef040d/
+- [x] /links/52f981b819a775279a808063dd66e63a/
+- [x] /links/53bce58522bb11b32b295450e12bfaf9/
+- [x] /links/58de305cf684b5456bd10fa8b9781d5b/
+- [x] /links/5979c2b2e7a8c383a9664be415ca8513/
+- [x] /links/5a47cf4859806bbf7fcb52de6cf2a357/
+- [x] /links/5a8335e24cd2d838f04554529a19900f/
+- [x] /links/5b2a99483e8cd77948dfbc951f3430e4/
+- [x] /links/5b5948593c5be988dd8c5ff183b3a87b/
+- [x] /links/5d042be42cebe984d06199ed464737fa/
+- [x] /links/635eff11f34115caa3eeaefe72e198ea/
+- [x] /links/648719a0a96a7d740e391a9a1b99fcd0/
+- [x] /links/64cf2d01e1cf6694817617c3fac4cdcf/
+- [x] /links/65861e447a19a42abc73a7c3f26b1b5b/
+- [x] /links/65c6f9aba64dd86cd51752f724066e3f/
+- [x] /links/6612ead1c4ad1ea21977211f09bcbe2c/
+- [x] /links/6617c2928f8fa8af633d68a528828619/
+- [x] /links/661fef70b052e12ecd97b64af35afd10/
+- [x] /links/68cbc3f8006494329d85ab2e37c56005/
+- [x] /links/6989d11ae282807715856fc697e4245e/
+- [x] /links/6ccea1a09d433c7abad8ab404f81c8b6/
+- [x] /links/6d6eda86d172489a087eb82772e29d65/
+- [x] /links/6df999f950e53f8ee663c7d0fd41ced1/
+- [x] /links/6ffe3a531046da17cce69be4d75da61c/
+- [x] /links/7028d3511b886ccb17c8076f1e327ded/
+- [x] /links/70f7e716de9af41fa37090159692f8b5/
+- [x] /links/7431c1dfa75f580fed65d9a463ab9a4e/
+- [x] /links/75e260a236151ecdb6e6dde7da32c9d0/
+- [x] /links/76c9f4175c8abff6b552bcf1a7eb7b1f/
+- [x] /links/776be66cc71496af864c0884b90e42d8/
+- [x] /links/780bdc064cc384e9acc5f71b489cac05/
+- [x] /links/797d2bfaf768c67f38328ae9a0a34564/
+- [x] /links/7befcef67a14250f8675f7b3c0b84ce7/
+- [x] /links/7c82cd198da4b979fd01646a0df8f4aa/
+- [x] /links/7d9ee9b4dc2d11f1b1bf4505a10eaced/
+- [x] /links/7df3a1a8600a9b264174693740273aa2/
+- [x] /links/7fa3ccb9581b8d416049745ab3902aba/
+- [x] /links/807d65105477145146b05d01cd946e8f/
+- [x] /links/864db035c5260fa4713377712967f8cc/
+- [x] /links/87b08bfd3a16d99b69cd02461f58baa9/
+- [x] /links/8b68a30a5afa0888778d95d90e2a0bd8/
+- [x] /links/8c3c05eef5a613e479980f542ac5e418/
+- [x] /links/8d443de6fd3f7ea57059ce2870ca18f5/
+- [x] /links/8dcc6487f7fd3d69f7f2a10da83a68d1/
+- [x] /links/8ebc55a6d6c3bd4d6b1d2af13badb83c/
+- [x] /links/8f584ea57a45cc1880e2e193f2a2fa2e/
+- [x] /links/914b03166a281f7ce3a06336379cd937/
+- [x] /links/9294da4d8101182edeb843fe80bcf777/
+- [x] /links/938af519b28f39b08549cfd0e8b1c33b/
+- [x] /links/9572dc96b10d3fd58ff8cfc6b2203779/
+- [x] /links/9a1a7821f2ff09a127a90a587e92670f/
+- [x] /links/9a59975e3ce06fbf2e730d39fa1275d3/
+- [x] /links/9b565bcba693fdb0d2c4abf3183c50a8/
+- [x] /links/9d0c27750ec263717ef3d2b87cf7c88d/
+- [x] /links/9f44d4e11b281dd3c1dc88b946b0d257/
+- [x] /links/a02bbb9b19e8c05c310ed2ec02b505e9/
+- [x] /links/a3282b52a235ff088f05f12fee1d1f67/
+- [x] /links/a3c4fe582a9a501319fb8b78113a7fcd/
+- [x] /links/a9b6696967872f1adea957cdb97a9543/
+- [x] /links/a9d22f51c15a71222d453f17a9f57426/
+- [x] /links/af6223ed44167fa41f5c8e96446ed872/
+- [x] /links/b0a0693e14d59ddb9b7d02ce51115277/
+- [x] /links/b27adf1d8407ed68b533c435911544e7/
+- [x] /links/b4b951d25616b8360ae9968f8157e18a/
+- [x] /links/b7e176cf56057c45191ee57b42c2401c/
+- [x] /links/b8a6e6e0d234c6e2404ba46e70bba3a9/
+- [x] /links/b9ab2efde373832a93fe859626eb70a3/
+- [x] /links/bd9527f234cc5c253dbd84ec0ec00bea/
+- [x] /links/bdfef3515611d95043d429689955538d/
+- [x] /links/bfe829abc3a44fdcdf06fcef0cc0ffe8/
+- [x] /links/c13747e0606dce6e74d99b0fccbbe7b6/
+- [x] /links/c204fc54866f6e1d54e4d1bc81a529d7/
+- [x] /links/c24063e96fddff42d91349e459b5df0c/
+- [x] /links/c37ca72696acf1e1d5da0b930e02ee63/
+- [x] /links/c501b82adb39b33a13f1266027fead78/
+- [x] /links/c7df34bd108780f0db5a437c57e389d0/
+- [x] /links/ca4105bf4a7176cc64eb14202fd70ba9/
+- [x] /links/cab334cc52c7eebb60631af71b5b238a/
+- [x] /links/cac24327c275dfa384f6c138eb77e41f/
+- [x] /links/cb780605093753c18dcc95d6656dfe56/
+- [x] /links/cb9ab48557c6cb47a606681199a8a7d2/
+- [x] /links/cc2283d9923195a7c21ee9b5253ce27e/
+- [x] /links/d08136c92b828370c1ab124df9a72fb7/
+- [x] /links/d10b307b4d5b50f7eb5394e57dfe7a37/
+- [x] /links/d34a55f35d7a8e763f9c9a6efb1f48d5/
+- [x] /links/d36d0a11d78a0d0c2ebed1dfb9bfc179/
+- [x] /links/d46f606dcf4f814e75731a6fe1ed2c58/
+- [x] /links/d8d442049efb65ee3250af46a93e4510/
+- [x] /links/d998ebaa284927b203bec7de5a2f95a7/
+- [x] /links/dc65dab1a700a7a557e8a00c52e0abfc/
+- [x] /links/deb2a350d9def28453d0d37c0d813d33/
+- [x] /links/e0216061c97fc8babaee542fe18d5610/
+- [x] /links/e086ab0b411ab56bfde98e084ee2fc84/
+- [x] /links/e3a5d5ed189b11c1f8f2ee21ae803ce6/
+- [x] /links/e3ac8aac32bb881c349bdef229af1570/
+- [x] /links/e470eac3fb0b40380ff2244ba2fc092e/
+- [x] /links/e471f21bfd01a02891cba011310d9d8a/
+- [x] /links/e561e8360fc9ec8501ca9effa592356e/
+- [x] /links/e87e62e28a97d07a00ff384269246f63/
+- [x] /links/e8d2b6bd0abbc86397abbd296e4229af/
+- [x] /links/e91b8b2449bf9ce35c32f75e5560c417/
+- [x] /links/ec7065aa4d402757e628843baf58ba02/
+- [x] /links/ed0ca61e2bec35ccc91b288f3e392945/
+- [x] /links/eebf3f8fa0c4f8a1de57e3dc70564f5c/
+- [x] /links/efd948cabb93ca4055f92f5440889497/
+- [x] /links/f0a07a2e04a71d51b6168653cacbeb05/
+- [x] /links/f0bba83cfe5168425eb8fb9dfa34c284/
+- [x] /links/f115283c51861b32a0a42c7ceb7bcbf3/
+- [x] /links/f13a324cdebdc0f9e5fd987d42203b65/
+- [x] /links/f1cd999c12ad54d69df51e1a4209449b/
+- [x] /links/f42b552e937f8937be6ca739bea46477/
+- [x] /links/f55e9e73fb4a6593e6cd53b51d85bb07/
+- [x] /links/f583b11db0fa5865153a5bbc29aed5ba/
+- [x] /links/f5e5bd4c560a430443ab1d71faa80cf4/
+- [x] /links/f78eb1bd408bf6ce09d0d44504227993/
+- [x] /links/ff625d4d69aedfdbadd9673d64d1ee85/
+- [x] /lists/
+- [r] /lists/internet-heroes/
+- [x] /navigation/
+- [ ] /now/
+- [x] /poetry/
+- [ ] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/
+- [ ] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/ABOUT/
+- [ ] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/DISRUPT/
+- [ ] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/EXPLAIN/
+- [ ] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/H/
+- [ ] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/I/
+- [ ] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/J/
+- [ ] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/K/
+- [ ] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/L/
+- [ ] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/M/
+- [ ] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/MOLE/
+- [ ] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/N/
+- [ ] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/NOPE/
+- [ ] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/O/
+- [ ] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/P/
+- [ ] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/PROS/
+- [ ] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/Q/
+- [ ] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/R/
+- [ ] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/S/
+- [ ] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/SUSTAIN/
+- [ ] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/S~/
+- [ ] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/T/
+- [ ] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/TOLD/
+- [ ] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/T~/
+- [ ] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/U/
+- [ ] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/U~/
+- [ ] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/V/
+- [ ] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/VICE/
+- [ ] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/W/
+- [ ] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/WORLDSERIES/
+- [ ] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/X/
+- [ ] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/Y/
+- [ ] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/table-of-contents/
+- [ ] /poetry/twenty-twenty/
+- [x] /posts/
+- [c] /posts/anti-racist/
+- [c] /posts/books-i-read-in-2017/
+- [c] /posts/christmas-milk/
+- [c] /posts/coming-up-empty/
+- [c] /posts/covidcado-toast/
+- [c] /posts/cynicism/
+- [c] /posts/deconstruct-conference-2019/
+- [c] /posts/deploying-ember-on-rails-to-heroku/
+- [c] /posts/deploying-rails-to-netlify/
+- [c] /posts/dismal-times/
+- [c] /posts/eliminating-nested-blocks-in-ruby/
+- [c] /posts/extreme-precautions/
+- [c] /posts/fish-hands/
+- [c] /posts/freaky-fast-subs/
+- [c] /posts/free-to-ignore/
+- [c] /posts/generating-active-storage-fixtures/
+- [c] /posts/green/
+- [c] /posts/heres-the-thing/
+- [c] /posts/how-i-use-slack/
+- [c] /posts/i-built-a-hook/
+- [c] /posts/im-an-introvert/
+- [c] /posts/immutability/
+- [c] /posts/instant-savings-in-vim/
+- [c] /posts/integrating-rails-encrypted-credentials-with-vcr/
+- [c] /posts/json-marshalling-empty-slices-to-empty-arrays-in-go/
+- [c] /posts/life-comes-at-you-pretty-fast/
+- [c] /posts/love-and-fear/
+- [c] /posts/millennium-hip-hop-party/
+- [c] /posts/my-kingdom-for-an-abstraction/
+- [c] /posts/new-year-new-ewe/
+- [c] /posts/one-week-until-turkey/
+- [c] /posts/pda-no-the-other-kind-of-pda/
+- [c] /posts/pizza-night/
+- [c] /posts/play/
+- [c] /posts/potter/
+- [c] /posts/promises/
+- [c] /posts/rails-javascript-testing-using-karma/
+- [c] /posts/react-cache-but-its-a-context/
+- [c] /posts/reduce-reuse-recycle/
+- [c] /posts/rotary-phones/
+- [c] /posts/rowsdower/
+- [c] /posts/sabbatical/
+- [c] /posts/scabbard-app/
+- [c] /posts/seeding-development-with-test-fixtures/
+- [c] /posts/server-generated-react-responses/
+- [c] /posts/sharing-is-caring-about-code/
+- [c] /posts/strait-and-narrow/
+- [c] /posts/struct-as-active-record/
+- [c] /posts/the-100-percent-correct-integration-of-technology/
+- [c] /posts/the-screwtape-legacy/
+- [c] /posts/thirty-six/
+- [c] /posts/unlimited-dada/
+- [c] /posts/void-0/
+- [c] /posts/welp-you-did-it/
+- [c] /posts/when-node-starts-failing-randomly/
+- [ ] /search/
+- [x] /sitemap/
+- [x] /today-i-learned/
+- [c] /today-i-learned/2014-09-30/
+- [c] /today-i-learned/2014-10-13/
+- [c] /today-i-learned/2014-10-14/
+- [c] /today-i-learned/2014-10-15/
+- [c] /today-i-learned/2014-10-16/
+- [c] /today-i-learned/2014-10-20/
+- [c] /today-i-learned/2014-10-21/
+- [c] /today-i-learned/2014-10-22/
+- [c] /today-i-learned/2014-10-23/
+- [c] /today-i-learned/2014-10-28/
+- [c] /today-i-learned/2014-10-29/
+- [c] /today-i-learned/2014-11-03/
+- [c] /today-i-learned/2014-11-04/
+- [c] /today-i-learned/2014-11-05/
+- [c] /today-i-learned/2014-11-06/
+- [c] /today-i-learned/2014-11-07/
+- [c] /today-i-learned/2014-11-08/
+- [c] /today-i-learned/2014-11-10/
+- [c] /today-i-learned/2014-11-21/
+- [c] /today-i-learned/2014-11-24/
+- [c] /today-i-learned/2014-11-25/
+- [c] /today-i-learned/2015-01-09/
+- [c] /today-i-learned/2015-02-02/
+- [c] /today-i-learned/2015-03-03/
+- [c] /today-i-learned/2015-04-21/
+- [c] /today-i-learned/2015-05-20/
+- [c] /today-i-learned/2015-06-15/
+- [c] /today-i-learned/2015-06-22/
+- [c] /today-i-learned/2015-07-20/
+- [c] /today-i-learned/2015-07-22/
+- [c] /today-i-learned/2015-08-12/
+- [c] /today-i-learned/2015-09-29/
+- [c] /today-i-learned/2015-11-09/
+- [c] /today-i-learned/2015-11-14/
+- [c] /today-i-learned/2015-11-27/
+- [c] /today-i-learned/2015-12-07/
+- [c] /today-i-learned/2016-01-07/
+- [c] /today-i-learned/2016-01-27/
+- [c] /today-i-learned/2016-03-09/
+- [c] /today-i-learned/2016-05-03/
+- [c] /today-i-learned/2016-08-31/
+- [c] /today-i-learned/2017-05-30/
+- [c] /today-i-learned/2018-07-11/
+- [c] /today-i-learned/2018-08-30/
+- [c] /today-i-learned/2018-10-15/
+- [c] /today-i-learned/2019-01-11/
+- [c] /today-i-learned/2019-08-01/
+- [c] /today-i-learned/2019-08-19/
+- [c] /today-i-learned/2019-09-18/
+- [c] /today-i-learned/2019-09-26/
+- [c] /today-i-learned/2019-09-27/
+- [c] /today-i-learned/2019-10-03/
+- [c] /today-i-learned/2019-10-16/
+- [c] /today-i-learned/2020-01-06/
+- [c] /today-i-learned/2020-01-07/
+- [c] /today-i-learned/2020-01-13/
+- [c] /today-i-learned/2020-06-27/
+- [c] /today-i-learned/2020-08-26/
+- [c] /today-i-learned/2020-08-31/
+- [c] /today-i-learned/2020-09-04/
+- [c] /today-i-learned/2020-09-09/
+- [c] /today-i-learned/2020-09-15/
+- [ ] /uses/
+- [ ] /weeks/
+- [x] /worknotes/
+- [x] /worknotes/2020-08-26/
+- [x] /worknotes/2020-08-27/
+- [x] /worknotes/2020-09-04/
+- [x] /worknotes/2020-11-19/
+- [x] /worknotes/2020-11-20/
+- [x] /worknotes/2020-11-23/
