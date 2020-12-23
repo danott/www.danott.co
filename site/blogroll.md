@@ -42,6 +42,9 @@ I'd consider [Everything Easy is Hard Again](https://frankchimero.com/blog/2018/
 : Hans' personal site is an inspiring archive.
 The minimal navigation is unique, and works really well for the stated goals.
 
+[Jamie's Notes](https://jamiesnotes.com)
+: I can't recall how I stumbled upon this one. But it's a good'n.
+
 [Jim Nielsen](https://blog.jim-nielsen.com)
 : The regularity of digestible, interesting posts is a real treat.
 
