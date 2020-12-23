@@ -198,40 +198,40 @@ x
 - [x] /navigation/
 - [c] /now/
 - [x] /poetry/
-- [ ] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/
-- [ ] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/ABOUT/
-- [ ] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/DISRUPT/
-- [ ] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/EXPLAIN/
-- [ ] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/H/
-- [ ] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/I/
-- [ ] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/J/
-- [ ] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/K/
-- [ ] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/L/
-- [ ] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/M/
-- [ ] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/MOLE/
-- [ ] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/N/
-- [ ] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/NOPE/
-- [ ] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/O/
-- [ ] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/P/
-- [ ] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/PROS/
-- [ ] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/Q/
-- [ ] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/R/
-- [ ] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/S/
-- [ ] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/SUSTAIN/
-- [ ] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/S~/
-- [ ] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/T/
-- [ ] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/TOLD/
-- [ ] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/T~/
-- [ ] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/U/
-- [ ] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/U~/
-- [ ] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/V/
-- [ ] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/VICE/
-- [ ] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/W/
-- [ ] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/WORLDSERIES/
-- [ ] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/X/
-- [ ] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/Y/
-- [ ] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/table-of-contents/
-- [ ] /poetry/twenty-twenty/
+- [c] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/
+- [c] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/ABOUT/
+- [c] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/DISRUPT/
+- [c] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/EXPLAIN/
+- [c] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/H/
+- [c] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/I/
+- [c] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/J/
+- [c] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/K/
+- [c] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/L/
+- [c] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/M/
+- [c] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/MOLE/
+- [c] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/N/
+- [c] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/NOPE/
+- [c] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/O/
+- [c] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/P/
+- [c] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/PROS/
+- [c] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/Q/
+- [c] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/R/
+- [c] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/S/
+- [c] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/SUSTAIN/
+- [c] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/S~/
+- [c] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/T/
+- [c] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/TOLD/
+- [c] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/T~/
+- [c] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/U/
+- [c] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/U~/
+- [c] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/V/
+- [c] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/VICE/
+- [c] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/W/
+- [c] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/WORLDSERIES/
+- [c] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/X/
+- [c] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/Y/
+- [c] /poetry/a-five-on-the-enneagram-and-other-myths-i-tell-myself/table-of-contents/
+- [c] /poetry/twenty-twenty/
 - [x] /posts/
 - [c] /posts/anti-racist/
 - [c] /posts/books-i-read-in-2017/

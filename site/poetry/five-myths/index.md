@@ -1,6 +1,7 @@
 ---
 title: A Five on the Enneagram and Other Myths I Tell Myself
 date: 2019-11-27
+layout: five-myths.njk
 ---
 
 The tests are consistent, and conversation reinforces it.

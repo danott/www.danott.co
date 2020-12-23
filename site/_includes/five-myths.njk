@@ -1,0 +1,23 @@
+---
+layout: default.njk
+---
+
+<article>
+  <h1>{{ title }}</h1>
+
+  {{ content | safe }}
+<article>
+
+<aside>
+  {% if links.prev %}
+    <a href="{{ links.prev.permalink }}">{{links.prev.text}}</a>
+  {% endif %}
+
+  {% if page.fileSlug != "table-of-contents" %}
+    <a href="/poetry/five-myths/table-of-contents">Table of Contents</a>
+  {% endif %}
+
+  {% if links.next %}
+    <a href="{{ links.next.permalink }}">{{links.next.text}}</a>
+  {% endif %}
+</aside>
