@@ -8,8 +8,8 @@ const md = new MarkdownIt({
 }).use(require("markdown-it-deflist"))
 
 module.exports = (eleventyConfig) => {
-  eleventyConfig.addPassthroughCopy("./site/site.css")
-  eleventyConfig.addWatchTarget("./site/site.css")
+  eleventyConfig.addPassthroughCopy("./site/assets/")
+  eleventyConfig.addWatchTarget("./site/assets/**/*")
 
   eleventyConfig.setLibrary("md", md)
 

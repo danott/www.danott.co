@@ -1,0 +1,126 @@
+:root {
+  --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  --font-family-mono: "SFMono-Regular", Consolas, "Liberation Mono", Menlo,
+    Courier, monospace;
+  --black: #12323d;
+  --white: #ffffff;
+  --off-white: #dadada;
+  --blue: #85c3e9;
+  --font-size: 16px;
+  --page-padding-x: 1rem;
+  --container-background: #fafafa;
+  --page-background: var(--white);
+  --page-color: var(--black);
+  --page-shadow: 0 0 1rem rgba(200, 200, 200, 0.2);
+  --accent-color: var(--blue);
+  --wip-background: yellow;
+  --wip-color: var(--black);
+}
+
+@media screen and (prefers-color-scheme: dark) {
+  :root {
+    --container-background: #1a2733;
+    --accent-color: var(--container-background);
+    --page-background: #27323e;
+    --page-color: rgb(236, 233, 230);
+    --page-shadow: none;
+    --wip-background: #f8cc3d;
+    --wip-color: var(--black);
+  }
+}
+
+@media screen and (min-width: 720px) {
+  :root {
+    --font-size: 20px;
+    --page-padding-x: 2rem;
+  }
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-size: var(--font-size);
+}
+
+html {
+  background: var(--container-background);
+  border-top: 0.5rem solid var(--accent-color);
+}
+
+body {
+  background: var(--page-background);
+  color: var(--page-color);
+  font-family: var(--font-family);
+  line-height: 1.4;
+  margin: 0 auto;
+  max-width: 40rem;
+  padding: 1rem var(--page-padding-x);
+}
+
+header {
+  display: flex;
+  align-items: center;
+}
+
+header img {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 4rem;
+  margin-right: 1rem;
+}
+
+main a {
+  color: inherit;
+}
+
+code {
+  font-size: 0.9rem;
+  font-family: var(--font-family-mono);
+  word-break: break-word;
+}
+
+@media screen and (min-width: 920px) {
+  html {
+    background-color: var(--container-background);
+    border-top-width: 12rem;
+    padding-bottom: 4rem;
+  }
+
+  body {
+    background-color: var(--page-background);
+    border-radius: 0.25rem;
+    box-shadow: var(--page-shadow);
+    margin-top: -6rem;
+  }
+}
+
+@media print {
+  :root {
+    --container-background: none;
+    --page-background: none;
+    --accent-color: none;
+  }
+
+  body {
+    max-width: none;
+  }
+}
+
+a.subtle {
+  text-decoration: none;
+  color: var(--page-color);
+}
+
+.wip-explanation {
+  background: var(--wip-background);
+  border-radius: 0.5rem;
+  box-shadow: 2px 2px 8px rgba(27, 27, 27, 0.2);
+  color: var(--wip-color);
+  margin: 0rem auto 1rem auto;
+  padding: 0.5rem 2rem;
+  transform: rotate(-1deg);
+  width: 75%;
+}
