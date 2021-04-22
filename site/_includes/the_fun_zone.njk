@@ -1,0 +1,23 @@
+<span id="the-fun-zone">
+  <template>Are we human? Are we dancer? Yes.</template>
+  <template>Exceptional mediocrity.</template>
+  <template>The Internet's favorite webmaster.</template>
+  <template>The first 24 hour sports bloopers network.</template>
+  <template>Let your mmhmm be mmhmm and your nuh-uh be nuh-uh.</template>
+  <template>What would you say you do here?</template>
+</span>
+
+<script>
+  (function () {
+    function randomElement(array) {
+      var randomIndex = Math.floor(Math.random() * array.length)
+      return array[randomIndex]
+    }
+
+    var theFunZone = document.getElementById("the-fun-zone")
+    var candidates = theFunZone.querySelectorAll("template")
+    var winner = randomElement(candidates)
+    theFunZone.appendChild(winner.content)
+  })()
+</script>
+
