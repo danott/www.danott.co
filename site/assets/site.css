@@ -62,7 +62,8 @@ body {
 
 header {
   display: flex;
-  align-items: center;
+  align-items: top;
+  margin-top: 1rem;
 }
 
 header img {
@@ -72,6 +73,11 @@ header img {
   margin-right: 1rem;
 }
 
+header nav {
+  display: block;
+}
+
+header a,
 main a {
   color: inherit;
 }
