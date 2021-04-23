@@ -1,7 +1,7 @@
 ---
 title: Pick Your Pain
 date: 2011-07-16
-hidden: true
+eleventyExcludeFromCollections: true
 ---
 
 There is a principle that has been fermenting in the sweet juices of my mind grapes over the past few months. There’s a place that Jesus has been leading me to that holds some previously unknown truths. Not new truths. Just unknown to me in my infancy and ignorance in the faith.

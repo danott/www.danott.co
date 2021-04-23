@@ -1,7 +1,7 @@
 ---
 date: 2016-03-19
 title: Accessible Emoji
-hidden: true
+eleventyExcludeFromCollections: true
 ---
 
 ---

@@ -1,7 +1,7 @@
 ---
 date: 2019-03-12
 title: Ego is the Enemy
-hidden: true
+eleventyExcludeFromCollections: true
 date_started: 2019-02-27
 date_finished: 2019-03-07
 stars: 5

@@ -1,7 +1,7 @@
 ---
 date: 2019-02-18
 title: Pale Blue Dot
-hidden: true
+eleventyExcludeFromCollections: true
 date_finished: 2019-02-18
 stars: 3
 audio: true
