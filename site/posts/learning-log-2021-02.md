@@ -3,6 +3,7 @@ title: Learning Log'ish, Jan-Feb 2021
 date: 2021-02-22
 layout: default.njk
 tags: weeknotes
+redirect_from: /learning-log-2021-02/
 ---
 
 # Learning Log'ish, Jan&mdash;Feb 2021

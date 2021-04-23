@@ -2,6 +2,7 @@
 title: I Love Writing
 date: 2020-12-17
 layout: default.njk
+redirect_from: /i-love-writing/
 ---
 
 # I Love Writing

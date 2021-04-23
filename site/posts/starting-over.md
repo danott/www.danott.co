@@ -2,6 +2,7 @@
 date: 2020-12-11
 title: Starting Over
 layout: default.njk
+redirect_from: /starting-over/
 ---
 
 # Starting over

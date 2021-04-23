@@ -2,6 +2,7 @@
 title: Immutability, Meet Premature Abstraction
 date: 2020-12-22
 layout: default.njk
+redirect_from: /immutability-meets-premature-abstraction/
 ---
 
 # Immutability, Meet Premature Abstraction

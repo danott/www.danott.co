@@ -2,6 +2,7 @@
 title: The Rise and Fall of Getting Things Done
 date: 2020-12-21
 layout: default.njk
+redirect_from: /the-rise-and-fall-of-getting-things-done/
 ---
 
 # [The Rise and Fall of Getting Things Done](https://www.newyorker.com/tech/annals-of-technology/the-rise-and-fall-of-getting-things-done)

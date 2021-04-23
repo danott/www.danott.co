@@ -2,6 +2,7 @@
 title: Preparing for launch
 date: 2020-12-22
 layout: default.njk
+redirect_from: /preparing-for-launch/
 ---
 
 # Preparing for launch
