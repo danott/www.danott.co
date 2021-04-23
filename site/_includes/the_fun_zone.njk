@@ -1,4 +1,5 @@
 <span id="the-fun-zone">
+  <template>The #1 name in personal websites.</template>
   <template>Are we human? Are we dancer? Yes.</template>
   <template>Exceptional mediocrity.</template>
   <template>The Internet's favorite webmaster.</template>
@@ -9,15 +10,27 @@
 
 <script>
   (function () {
-    function randomElement(array) {
-      var randomIndex = Math.floor(Math.random() * array.length)
-      return array[randomIndex]
+    var theFunZone = document.getElementById("the-fun-zone")
+    var templates = theFunZone.querySelectorAll("template")
+    var selectedIndex = randomIndex(templates)
+
+    function randomIndex(array) {
+      return Math.floor(Math.random() * array.length)
     }
 
-    var theFunZone = document.getElementById("the-fun-zone")
-    var candidates = theFunZone.querySelectorAll("template")
-    var winner = randomElement(candidates)
-    theFunZone.appendChild(winner.content)
+    function incrementIndex(array, index) {
+      return (index + 1) % array.length
+    }
+
+    function render() {
+      selectedIndex = incrementIndex(templates, selectedIndex)
+      var selectedTemplate = templates[selectedIndex]
+      theFunZone.removeChild(theFunZone.lastChild)
+      theFunZone.appendChild(selectedTemplate.content.cloneNode(true))
+    }
+
+    theFunZone.addEventListener("click", render)
+    render()
   })()
 </script>
 
