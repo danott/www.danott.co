@@ -1,0 +1,46 @@
+---
+title: Commits
+eleventyExcludeFromCollections: true
+---
+<!DOCTYPE html>
+<html lang="en""crown-molding">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{ title }}</title>
+    <style>
+      html, body {
+        margin: 0; 
+        padding: 0;
+      }
+
+      .grid {
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      .pixel {
+        align-items: center;
+        background: var(--color);
+        display: flex;
+        height: 10vw;
+        justify-content: center;
+        text-decoration: none;
+        width: 10vw;
+      }
+    </style>
+  </head>
+
+  <body class="grid">
+    {% for commit in collections.commits %}
+      <a 
+        class="pixel" 
+        href="/commits/{{commit.hash}}/"
+        style="--color: #{{ commit.hash.substring(0, 6) }}"
+        title="{{ commit.subject }}"
+      >
+        {{ commit.subject.split(" ")[0] }}
+      </a>
+    {% endfor %}
+  </body>
+</html>
