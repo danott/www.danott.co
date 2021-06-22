@@ -1,6 +1,7 @@
 ---
 title: Uses
-layout: default.njk
+layout: markdown.njk
+eleventyExcludeFromCollections: true
 ---
 
 # Uses

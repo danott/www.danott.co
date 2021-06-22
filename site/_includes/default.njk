@@ -1,5 +1,8 @@
+---
+title: danott.co
+---
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="crown-molding">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,13 +10,19 @@
     <link rel="stylesheet" media="screen" href="/assets/site.css" />
   </head>
 
-  <body>
-    <header>
-      <a href="/" class="subtle">
-        <img src="/assets/images/danott.jpg" alt="Dan Ott holding a bottle of hot sauce." width="100" height="100" />
+  <body class="page">
+    <header class="letterhead">
+      <a href="/" class="plaintext">
+        <img 
+          alt="Dan Ott holding a bottle of hot sauce." 
+          class="avatar"
+          height="100"
+          src="/assets/images/danott.jpg" 
+          width="100" 
+        >
       </a>
       <div>
-        <a href="/" class="subtle">
+        <a href="/" class="plaintext">
           <strong>Dan Ott's Website</strong>
         </a>
         <br />
@@ -21,9 +30,9 @@
       </div>
     </header>
 
-    
+    {% include "wip_explanation.njk" %}
+
     <main>
-      {% include "wip_explanation.njk" %}
       {{ content | safe }}
     </main>
   </body>

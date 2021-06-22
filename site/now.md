@@ -1,7 +1,8 @@
 ---
 title: Now
 date: 2020-12-22
-layout: default.njk
+layout: markdown.njk
+eleventyExcludeFromCollections: true
 ---
 
 # What I'm doing now

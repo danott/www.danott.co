@@ -1,7 +1,7 @@
 ---
 title: The Rise and Fall of Getting Things Done
 date: 2020-12-21
-layout: default.njk
+layout: markdown.njk
 redirect_from: /the-rise-and-fall-of-getting-things-done/
 ---
 

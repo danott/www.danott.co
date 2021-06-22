@@ -5,7 +5,9 @@ layout: default.njk
 <article>
   <h1>{{ title }}</h1>
 
-  {{ content | safe }}
+  <div class="prose">
+    {{ content | safe }}
+  </div>
 <article>
 
 <aside>

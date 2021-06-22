@@ -1,7 +1,8 @@
 ---
 date: 2020-12-18
 title: Blogroll
-layout: default.njk
+layout: markdown.njk
+eleventyExcludeFromCollections: true
 ---
 
 # Blogroll
