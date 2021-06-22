@@ -23,6 +23,16 @@ module.exports = (eleventyConfig) => {
     })
   })
 
+  eleventyConfig.addCollection("links", function (collectionApi) {
+    const json = JSON.parse(execSync("./scripts/links"))
+
+    return json.map(({ date, commentary, ...rest }) => {
+      date = new Date(date)
+      if (commentary) commentary = md.render(commentary)
+      return { date, commentary, ...rest }
+    })
+  })
+
   eleventyConfig.addPairedShortcode("markdown", function (content) {
     return md.render(content)
   })

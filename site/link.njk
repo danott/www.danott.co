@@ -1,0 +1,25 @@
+---
+title: Link
+layout: default.njk
+eleventyExcludeFromCollections: true
+permalink: "/links/{{ link.hash }}/index.html"
+pagination:
+  data: collections.links
+  size: 1
+  alias: link
+---
+
+<article>
+  <h1>{{link.title}}</h1>
+  <p>
+    {{ link.tags }}
+  </p>
+  <p>
+    <a href="{{ link.url }}">{{link.url}}</a>
+  </p>
+  <p>{{ link.date.toUTCString() }}</p>
+
+  <div class="prose">
+    {{ link.commentary | safe }}
+  </div>
+</article>

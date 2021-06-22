@@ -1,0 +1,16 @@
+---
+title: Links
+layout: markdown.njk
+date: 2020-12-20
+eleventyExcludeFromCollections: true
+---
+
+<h1>Links</h1>
+
+<ul>
+{% for link in collections.links %}
+  <li>
+    <a href="/links/{{ link.hash }}/">{{ link.title }}</a>
+  </li>
+{% endfor %}
+</ul>
